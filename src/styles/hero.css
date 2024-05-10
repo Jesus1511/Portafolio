@@ -1,0 +1,150 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    max-height: 604px;
+}
+
+.hero-text {
+    text-align: center;
+    h1, h2 {
+        font-weight: 600;
+    }
+    h2 {
+        color: #97e9e0
+    }  
+}
+
+.hero-svg {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-buttons  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-buttonsContainer {
+    margin: auto;
+    max-width: 350px;
+}
+
+.hero-contactame {
+    margin-top: 10px;
+    background-color: #00ccb4;
+    width: 125px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    transition: .3s;
+    img {
+        position: relative;
+        top: 5px;
+        transition: .2s;
+        width: 17px;
+    }
+}
+
+.hero-contactame:hover{
+    img {
+        transition: .2s;
+        transform: translateX(7px);
+    }
+}
+
+.hero-assets{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    margin: auto;
+    max-width: 375px;
+}
+
+.hero-blur {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 440px;    
+    z-index: -20;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px #267bfae7;
+}
+
+@media (min-width: 1020px) {
+    .hero {
+        flex-direction: row;
+        max-height: 600px;
+    }
+
+    .hero-buttonsContainer {
+        margin: 0px;
+        max-width: 300px;
+    }
+
+    .hero-buttons {
+        justify-content: space-between;
+    }
+    
+    
+    .hero-text {
+        max-width: 50%;
+        text-align: left;
+        padding-top: 60px;
+        padding-left: 5%;
+        h1, h2 {
+            font-size: 35px;
+
+        }
+        p{
+            font-size: 25px;
+        } 
+      
+    }
+    
+    .hero-contactame {
+        margin-top: 20px;
+    }
+    
+    .hero-assets{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    .hero-img {
+        margin: auto;
+        max-width: 1000px;
+        width:570px;
+        position: relative;
+        
+    }
+    
+    .hero-blur {
+        position: absolute;
+        z-index: -20;
+        width: 300px;
+        height: 200px;
+        border-radius: 50%;
+        top: 410px;
+        box-shadow: 0px 0px 100px #267bfae7;
+    }   
+}
+
+@media (min-width: 1300px) {
+
+    .hero {
+        max-height: 485px;
+    }
+
+    .hero-text {
+        padding-left: 10%;
+    }
+
+}
