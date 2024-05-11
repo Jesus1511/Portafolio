@@ -6,6 +6,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   box-sizing: border-box;
   text-wrap: balance;
+  box-sizing: border-box;
 }
 
 body {
@@ -30,16 +31,47 @@ input, textarea{
   color:black;
 }
 
-.techContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
-  padding: 10px;
-  gap: 10px;
+
+.img1 {
+  background-image: url('./assets/deadpool.jpg'), linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)); 
+  background-blend-mode: overlay;
+  background-size: contain;
+  transition: background 0.5s ease;
+  transition: .2s;
 }
 
-.tech {
-  height: 30px;
+.img2 {
+  background-image: url('./assets/pepsi.jpg'), linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)); 
+  background-blend-mode: overlay;
+  background-size: contain;
+  transition: background 0.5s ease;
+  transition: .2s;
 }
+
+.img3 {
+  background-image: url('./assets/cactus.jpg'), linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)); 
+  background-blend-mode: overlay;
+  background-size: contain;
+  transition: background 0.5s ease;
+  transition: .2s;
+}
+
+.img1:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.688);
+  transition: .2s;
+}
+
+.img2:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.688);
+  transition: .2s;
+}
+
+.img3:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.477);
+  transition: .2s;
+}
+
+
 
 @media (min-width: 540px) {
   .ul {
@@ -53,12 +85,49 @@ input, textarea{
 
   .techContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    grid-template-rows: repeat(2, minmax(60px, auto));
     padding: 10px;
     gap: 10px;
   }
 
-  .tech{
-    height: 40px;
+}
+
+@media (min-width: 1024px) {
+
+  .big,
+  .bigleft,
+  .bigright,
+  .mini,
+  .minileft,
+  .miniright {
+    transition: 0.4s ease !important ;
   }
+  
+  .minileft {
+    transform: scale(0.7) translate(-149%, 0px);
+  }
+  
+  .bigleft {
+    transform: scale(1.2) translate(-87%, 0px);
+  }
+  
+  .big {
+    transform: scale(1.2);
+  }
+  
+  .mini {
+    transform: scale(0.7);
+  }
+  
+  .miniright {
+    transform: scale(0.7) translate(149%, 0px);
+  }
+  
+  .bigright {
+    transform: scale(1.2) translate(87%, 0px);
+  }
+}
+
+input:focus, textarea:focus {
+  outline: none;
 }

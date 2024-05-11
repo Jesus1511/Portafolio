@@ -1,0 +1,38 @@
+.box {
+    background-image: linear-gradient(to top, rgba(0, 89, 255, 0.175), rgba(84, 104, 255, 0.175));
+    border-radius: 10px; 
+    max-width: 500px;
+}
+
+.boxT {
+    background-image: linear-gradient(to top, rgba(0, 89, 255, 0.175), rgba(84, 104, 255, 0.175));
+    border-radius: 10px; 
+    width: 50vw;
+}
+
+.techContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    padding-top: 0px;
+    justify-items: center; 
+    align-items: center;
+    grid-template-rows: repeat(2, minmax(60px, auto));
+  }
+  
+  .tech {
+    height: 30px;
+  }
+
+  .translacion {
+    transform: translate(-50%, 0px) ;
+  }
+
+  .code {
+    transition: .3s;
+  }
+
+  .code:hover {
+    transition: .3s;
+    transform: translate(0px, -4px);
+  }
