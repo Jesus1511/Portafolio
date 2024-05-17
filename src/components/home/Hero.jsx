@@ -9,9 +9,9 @@ export const Hero = () => {
     <div className='flex justify-center' id='inicio'>
     <section className="hero">
         <div className="hero-text">
-            <h1>¡Hola soy Jesús!👋</h1>
-            <h2>¿Buscas un desarrollador de aplicaciones web o mobile?</h2>
-            <p>Desde 2023, resolviendo problemas y dando vida a ideas a través del código.</p>
+            <h1 className='cursor-default'>¡Hola soy <span className='hover:text-[#97e9e0] transition '>Jesús!</span>👋</h1>
+            <h2 className='cursor-default'>¿Buscas un desarrollador de aplicaciones web o mobile?</h2>
+            <p className='cursor-default'>Desde 2023, resolviendo problemas y dando vida a ideas a través del código.</p>
             <div className='hero-buttonsContainer'>
               <div className="hero-buttons">
                 <a className='no-underline' href="https://github.com/Jesus1511" target="_blank" rel="noopener noreferrer">

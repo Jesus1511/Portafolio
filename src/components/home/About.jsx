@@ -55,8 +55,13 @@ export const About = () => {
         <div className="about-sec2">
             <div className='text-center flex flex-col items-center'>
                 <h3 className='text-[22px] lg:text-[27px]  transition hover:text-[#77adffe7]'>conóceme un poco</h3>
-                <div className='box h-[320px] w-[95vw]'>
-                    <p>texto en alta</p>
+                <div className='box h-[320px] p-[20px] leading-5 text-balance flex flex-col w-[95vw]'>
+                    <p>
+                    Mi nombre es Jesús David Zambrano y me dedico al emprendimiento digital. A los 13 años escribí mi primera línea de código con la idea de crear un juego sobre esquivar meteoritos en una pc dada por el gobierno. Ahora desarrollo aplicaciones profesionales que son utilizadas a nivel internacional por miles de personas.
+                    </p>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ex. Error provident explicabo iste id, numquam adipisci aperiam magnam accusantium molestiae vel saepe qui ab cumque suscipit maiores eaque cupiditate!
+                    </p>
                 </div>
             </div>
             <div>

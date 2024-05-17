@@ -51,8 +51,8 @@ export const Portafolio = () => {
 
   return (
     <section className="portofolio py-[90px]" id="proyectos">
-      <div onClick={()=>handleSlider(-1)} className="bg-white text-[#424242] text-[50px] absolute w-[40px] h-[40px] rounded-[50%] hidden lg:flex justify-center items-center top-[1760px] left-[20px]  cursor-pointer hover:text-[#c8272ce7] transition  z-[2234]">{"<"}</div>
-      <div onClick={()=>handleSlider(+1)} className="bg-white text-[#424242] text-[50px] absolute w-[40px] h-[40px] rounded-[50%] hidden lg:flex justify-center items-center top-[1760px] right-[20px] cursor-pointer hover:text-[#c8272ce7] transition z-[2234]">{">"}</div>
+      <div onClick={()=>handleSlider(-1)} className="bg-white text-[#424242] text-[50px] absolute w-[40px] h-[40px] rounded-[50%] hidden lg:flex justify-center items-center top-[1950px] left-[20px]  cursor-pointer hover:text-[#c8272ce7] transition  z-[2234]">{"<"}</div>
+      <div onClick={()=>handleSlider(+1)} className="bg-white text-[#424242] text-[50px] absolute w-[40px] h-[40px] rounded-[50%] hidden lg:flex justify-center items-center top-[1950px] right-[20px] cursor-pointer hover:text-[#c8272ce7] transition z-[2234]">{">"}</div>
       <h2 className="text-center mb-[40px] cursor-default">Explora mis proyectos de aplicaciones <span className="text-[#fe3d43e7] hover:text-white transition">web</span> y <span className="text-[#fe3d43e7] hover:text-white transition">móviles</span>.</h2>
       <div className="flex lg:flex-row lg:justify-around flex-col items-center">
         <div onClick={()=>navigate('/project/0')} className={`my-[30px] ${styles[0]} w-[340px] lg:w-[450px] lg:h-[338px] cursor-pointer h-[255px] img1 degree`}>
