@@ -56,13 +56,13 @@ export const Portafolio = () => {
       <h2 className="text-center mb-[40px] cursor-default">Explora mis proyectos de aplicaciones <span className="text-[#fe3d43e7] hover:text-white transition">web</span> y <span className="text-[#fe3d43e7] hover:text-white transition">móviles</span>.</h2>
       <div className="flex lg:flex-row lg:justify-around flex-col items-center">
         <div onClick={()=>navigate('/project/0')} className={`my-[30px] ${styles[0]} w-[340px] lg:w-[450px] lg:h-[338px] cursor-pointer h-[255px] img1 degree`}>
-          <p className='relative lg:top-[235px] top-[200px] left-[25px] w-[300px]'>proyecto (3)</p>
+          <p className='relative lg:top-[235px] top-[200px] left-[25px] w-[300px]'>Paper Rock scissors</p>
         </div>
         <div onClick={()=>navigate('/project/1')} className={`my-[30px] ${styles[1]}  w-[340px] lg:w-[450px] lg:h-[338px] cursor-pointer h-[255px] img2 degree`}>
-          <p className='relative lg:top-[235px] top-[200px] left-[25px] w-[300px]'>proyecto (3)</p>
+          <p className='relative lg:top-[235px] top-[200px] left-[25px] w-[300px]'>google keeps clone</p>
         </div>
         <div onClick={()=>navigate('/project/2')} className={`my-[30px] ${styles[2]}  w-[340px] lg:w-[450px] lg:h-[338px] cursor-pointer h-[255px] img3 degree`}>
-          <p className='relative lg:top-[235px] top-[200px] left-[25px] w-[300px]'>proyecto (3)</p>
+          <p className='relative lg:top-[235px] top-[200px] left-[25px] w-[300px]'>connect four vs ia</p>
         </div>
       </div>
 

@@ -33,7 +33,7 @@ input, textarea{
 
 
 .img1 {
-  background-image: url('./assets/deadpool.jpg'), linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)); 
+  background-image: url('./assets/deadpool.jpg'), linear-gradient(to top, rgba(0, 0, 0, 0.754), rgba(0, 0, 0, 0)); 
   background-blend-mode: overlay;
   background-size: contain;
   transition: background 0.5s ease;
@@ -41,7 +41,7 @@ input, textarea{
 }
 
 .img2 {
-  background-image: url('./assets/pepsi.jpg'), linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)); 
+  background-image: url('./assets/pepsi.jpg'), linear-gradient(to top, rgba(0, 0, 0, 0.754), rgba(0, 0, 0, 0)); 
   background-blend-mode: overlay;
   background-size: contain;
   transition: background 0.5s ease;
@@ -49,7 +49,7 @@ input, textarea{
 }
 
 .img3 {
-  background-image: url('./assets/cactus.jpg'), linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)); 
+  background-image: url('./assets/cactus.jpg'), linear-gradient(to top, rgba(0, 0, 0, 0.754), rgba(0, 0, 0, 0)); 
   background-blend-mode: overlay;
   background-size: contain;
   transition: background 0.5s ease;
@@ -57,17 +57,17 @@ input, textarea{
 }
 
 .img1:hover {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.688);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.298);
   transition: .2s;
 }
 
 .img2:hover {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.688);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.298);
   transition: .2s;
 }
 
 .img3:hover {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.477);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.298);
   transition: .2s;
 }
 
